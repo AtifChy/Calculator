@@ -126,7 +126,10 @@ namespace Calculator
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            txtDisplay.Text = txtDisplay.Text.Remove(txtDisplay.Text.Length - 1);
+            if (txtDisplay.Text.Length > 0)
+            {
+                txtDisplay.Text = txtDisplay.Text.Remove(txtDisplay.Text.Length - 1);
+            }
         }
 
         private void txtDisplay_KeyDown(object sender, KeyEventArgs e)

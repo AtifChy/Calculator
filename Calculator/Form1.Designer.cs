@@ -125,7 +125,7 @@
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(240, 90);
             btnClear.TabIndex = 20;
-            btnClear.Text = "clear";
+            btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
             // 
@@ -151,7 +151,7 @@
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(117, 90);
             btnDelete.TabIndex = 18;
-            btnDelete.Text = "del";
+            btnDelete.Text = "⌫";
             btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += btnDelete_Click;
             // 
@@ -259,7 +259,7 @@
             btnMultiply.Name = "btnMultiply";
             btnMultiply.Size = new Size(117, 87);
             btnMultiply.TabIndex = 7;
-            btnMultiply.Text = "*";
+            btnMultiply.Text = "×";
             btnMultiply.UseVisualStyleBackColor = true;
             btnMultiply.Click += btnMultiply_Click;
             // 
@@ -307,7 +307,7 @@
             btnDivide.Name = "btnDivide";
             btnDivide.Size = new Size(117, 87);
             btnDivide.TabIndex = 3;
-            btnDivide.Text = "/";
+            btnDivide.Text = "÷";
             btnDivide.UseVisualStyleBackColor = true;
             btnDivide.Click += btnDivide_Click;
             // 
